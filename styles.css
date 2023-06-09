@@ -1,0 +1,121 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+nav img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('https://imgeng.jagran.com/images/2022/dec/Avatar2Review1670408882600.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #e50914;
+    border: none;
+}
+
+.movies {
+    padding: 40px 0;
+}
+
+.movies h2, .shows h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.movie, .show {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.movie img, .show img {
+    width: 100%;
+    height: auto;
+}
+
+.movie h3, .show h3 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}

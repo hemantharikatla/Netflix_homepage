@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFG71dX4_JVcAivlFT3X-fqpJWEYxdpB-t9g&usqp=CAU.png" alt="Netflix Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">My List</a></li>
+                    <li><a href="#" onclick="redirectToAccount()">Account</a></li>
+                    <li> <form id="search-form">
+                        <input type="text" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <p>Watch anywhere. Cancel anytime.</p>
+                <a href="#" class="btn btn-primary">Try 30 days free</a>
+            </div>
+        </div>
+    </header>  
+    <section class="movies">
+        <div class="container">
+            <h2>Recent Movies</h2>
+            <div class="movie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQ1LdHMEGMTjGE0Un-DPz8cF8MQZbzOyEkA&usqp=CAU.jpg" alt="Recent Movie 1">
+                <h3>BHOLA</h3>
+            </div>
+            <div class="movie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnRMoJDQARTByTm4ARY5IjFBrhgaoaGXjAlQ&usqp=CAU.jpg" alt="Recent Movie 2">
+                <h3>JAILER</h3>
+            </div>
+            <div class="movie">
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/7635/1307635-h-2954983323ae.jpg" alt="Recent Movie 3">
+                <h3>RRR</h3>
+            </div>
+        </div>
+    </section>  
+   
+    <section class="movies">
+        <div class="container">
+            <h2>Popular Movies</h2>
+            <div class="movie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAkxQqf7druROMb1I0yHLpIQ6yX_2zgpNQw&usqp=CAU.jpg" alt="Movie 1">
+                <h3>SHAKUNTHALAM</h3>
+            </div>
+            <div class="movie">
+                <img src="https://static.toiimg.com/thumb/msid-100720845,width-400,resizemode-4/100720845.jpg.jpg" alt="Movie 2">
+                <h3>VIKRAM</h3>
+            </div>
+            <div class="movie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgA5mAsoN7LXZ-mzTG2DufuUcdubIXA-XweA&usqp=CAU.jpg" alt="Movie 3">
+                <h3>KGF 2</h3>
+            </div>
+            <!-- Add more movie sections as needed -->
+        </div>
+    </section>
+    <section class="shows">
+        <div class="container">
+            <h2>My Shows</h2>
+            <div class="show">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9vEgBkfi7dNbjQ_-etEQWhBolrJP0JEByng&usqp=CAU.jpg" alt="Show 1">
+                <h3>PEAKY BLINDERS</h3>
+            </div>
+            <div class="show">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk72rTHaeLtgeKuImjZQp7auCvaLI-oenw-A&usqp=CAU.jpg" alt="Show 2">
+                <h3>LUCIFER</h3>
+            </div>
+            <div class="show">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW3IuvNdiykt5TXbnPajC-7dC2hQZJOahtaw&usqp=CAU.jpg" alt="Show 3">
+                <h3>FRIENDS</h3>
+            </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Netflix. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
